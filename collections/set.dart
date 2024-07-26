@@ -19,3 +19,18 @@ add and removing value from set:
 
 
 */
+void main() {
+  Set<String> students = {
+    "Topu",
+    "chironjit",
+    "Nipa",
+    "Ripa",
+    "Torun",
+    "Joy",
+    "Tanjid"
+  };
+
+  List<String> myStudents =
+      students.where((value) => value.startsWith("T")).toList();
+  print(myStudents);
+}

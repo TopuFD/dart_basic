@@ -33,6 +33,5 @@ void main() {
   myMap.forEach((key, value) => print("The Key is \= $key : $value"));
 
   result.removeWhere((key, value) => value < 40);
-  result.clear();
   print(result);
 }
